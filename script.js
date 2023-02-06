@@ -7,6 +7,9 @@ function colocarNaTela(dados){
     console.log(dados)
     document.querySelector(".cidade").innerHTML = "Tempo em " + dados.name
     document.querySelector(".temp").innerHTML =  Math.floor(dados.main.temp) + "°C"
+    document.querySelector(".maxima").innerHTML = Math.floor( dados.main.temp_max) + "°C   " + "maxima"
+    document.querySelector(".minima").innerHTML =  Math.floor(dados.main.temp_min) + "°C   " + "minima"
+
     document.querySelector(".descricao").innerHTML = dados.weather[0].description
     document.querySelector(".umidade").innerHTML = "Umidade: " + (dados.main.humidity)
 

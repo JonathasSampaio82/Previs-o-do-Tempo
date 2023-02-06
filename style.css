@@ -78,7 +78,7 @@ h2 {
 .temp {
     color: red;
     font-size: 40px;
-
+margin-top: 20px;
 }
 
 
@@ -96,4 +96,23 @@ h2 {
 
 .icone{
     width: 80px;
+}
+
+
+.nome {
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.maxima{
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+
+.minima{
+    color:  #ffffff;
+    font-size: 30px;
+
 }
